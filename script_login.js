@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         try {
-            const response = await fetch("https://4775-37-99-40-85.ngrok-free.app/users", {
+            const response = await fetch("https://2d2e-37-99-40-85.ngrok-free.app/users", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
