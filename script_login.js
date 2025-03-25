@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Если всё в порядке, перенаправляем пользователя
-            window.location.href = "https://sulta24.github.io/TeamUp_main/";
+            window.location.href = "https://lvgcb.github.io/social/";
 
         } catch (error) {
             console.error("Ошибка при отправке данных:", error);
