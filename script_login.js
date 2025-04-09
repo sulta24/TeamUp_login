@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Test User",
             email: email,
             password: password,
-            age: 18,
+            age: 0,
             bio: "Пользователь платформы TeamUp!",
             skills: "Python, JS",
             avatar_path: "default_avatar.png"
         };
 
         try {
-            const response = await fetch("https://4cbc-2a0d-b201-1015-cfb4-57cd-d9af-48ed-3822.ngrok-free.app/users", {
+            const response = await fetch("http://127.0.0.1:5000/users", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Если всё в порядке, перенаправляем пользователя
-            window.location.href = "https://sulta24.github.io/TeamUp_main/;
+            window.location.href = "http://localhost:63342/QADAM/index.html?_ijt=p16jh3mv1td9tj5u94p76bsc6v&_ij_reload=RELOAD_ON_SAVE";
 
         } catch (error) {
             console.error("Ошибка при отправке данных:", error);
