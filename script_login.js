@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Test User",
             email: email,
             password: password,
-            age: 0,
+            age: 5,
             bio: "Пользователь платформы TeamUp!",
             skills: "Python, JS",
             avatar_path: "default_avatar.png"
