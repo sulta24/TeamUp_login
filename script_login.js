@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Если всё в порядке, перенаправляем пользователя
-            window.location.href = "http://localhost:63342/QADAM/index.html?_ijt=p16jh3mv1td9tj5u94p76bsc6v&_ij_reload=RELOAD_ON_SAVE";
+            window.location.href = "https://sulta24.github.io/TeamUp_main/";
 
         } catch (error) {
             console.error("Ошибка при отправке данных:", error);
