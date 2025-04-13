@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         try {
-            const response = await fetch("https://devil-neighbor-locate-sending.trycloudflare.com/users", {
+            const response = await fetch("https://levels-struct-statement-doctor.trycloudflare.com/users", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
