@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         try {
-            const response = await fetch("https://generic-cumulative-occurred-romania.trycloudflare.com/users", {
+            const response = await fetch("https://playstation-module-distance-chart.trycloudflare.com/users", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
